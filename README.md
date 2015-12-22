@@ -1,5 +1,5 @@
 # solace [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Alternative to console log which automatically beautifies the output
+> Alternative to the console log which automatically beautifies the output
 
 ## Installation
 
@@ -10,10 +10,33 @@ $ npm install --save solace
 ## Usage
 
 ```js
-var solace = require('solace');
+import solaceCreator from 'solace';
 
-solace('Rainbow');
+const solace = solaceCreator({
+  standardOut: process.stdout,
+  standardErr: process.stderr,
+  defaultTheme: 'beautiful'
+});
+
+const value = {
+  a: 12
+  b: ['jan', 'feb', 'mar'],
+  c: true,
+  d: new Date()
+};
+
+solace.log('Some data nicely arranged:');
+solace.log(value, {title: 'title', theme: 'outline'});
+
 ```
+
+### Themes
+
+* machine: Format the output in a compact manner easily readable by a machine.
+* beautiful: Format the output in a beautiful manner.
+* outline: Format the output with the main outlines.
+
+
 ## License
 
 MIT © [flarebyte](https://github.com/flarebyte)
