@@ -48,5 +48,5 @@ MIT © [flarebyte](https://github.com/flarebyte)
 [travis-url]: https://travis-ci.org/flarebyte/solace
 [daviddm-image]: https://david-dm.org/flarebyte/solace.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/flarebyte/solace
-[coveralls-image]: https://coveralls.io/repos/flarebyte/solace/badge.svg
-[coveralls-url]: https://coveralls.io/r/flarebyte/solace
+[coveralls-image]: https://coveralls.io/repos/flarebyte/solace/badge.svg?branch=master&service=githubs
+[coveralls-url]: https://coveralls.io/github/flarebyte/solace?branch=master
