@@ -86,12 +86,12 @@ describe('solace', function () {
   });
   it('should write date!', function () {
     const dd = new Date(1450816541000);
-    check(MACHINE, dd, '2015-12-22T21:35:41+01:00\n', RESET);
-    check(BEAUTIFUL, dd, '2015-12-22T21:35:41+01:00\n', RESET);
-    check(OUTLINE, dd, '2015-12-22T21:35:41+01:00\n', RESET);
-    checkWithOpts(MACHINE, dd, '2015-12-22T21:35:41+01:00\n', RESET, optionsWithTitle);
-    checkWithOpts(BEAUTIFUL, dd, '2015-12-22T21:35:41+01:00\n', RESET, optionsWithTitle);
-    checkWithOpts(OUTLINE, dd, '2015-12-22T21:35:41+01:00\n', RESET, optionsWithTitle);
+    check(MACHINE, dd, '2015-12-22T21:35:41', RESET);
+    check(BEAUTIFUL, dd, '2015-12-22T21:35:41', RESET);
+    check(OUTLINE, dd, '2015-12-22T21:35:41', RESET);
+    checkWithOpts(MACHINE, dd, '2015-12-22T21:35:41', RESET, optionsWithTitle);
+    checkWithOpts(BEAUTIFUL, dd, '2015-12-22T21:35:41', RESET, optionsWithTitle);
+    checkWithOpts(OUTLINE, dd, '2015-12-22T21:35:41', RESET, optionsWithTitle);
   });
   it('should write regex!', function () {
     check(MACHINE, /[A-Z]+/, '/[A-Z]+/\n', RESET);
