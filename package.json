@@ -17,7 +17,11 @@
     "stdout",
     "beautify",
     "json",
-    "yaml"
+    "yaml",
+    "CLI",
+    "command line interface",
+    "debugging",
+    "logging"
   ],
   "repository": "https://github.com/flarebyte/solace.git",
   "devDependencies": {
