@@ -1,6 +1,6 @@
 {
   "name": "solace",
-  "version": "0.1.3",
+  "version": "1.1.0",
   "description": "Alternative to console log which automatically beautifies the output",
   "homepage": "https://github.com/flarebyte/solace",
   "author": {
@@ -17,7 +17,11 @@
     "stdout",
     "beautify",
     "json",
-    "yaml"
+    "yaml",
+    "CLI",
+    "command line interface",
+    "debugging",
+    "logging"
   ],
   "repository": "https://github.com/flarebyte/solace.git",
   "devDependencies": {
@@ -42,13 +46,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "chalk": "^1.1.1",
+    "chalk": "^1.1.3",
     "cli-table": "^0.3.1",
-    "joi": "^7.0.1",
-    "js-beautify": "^1.5.10",
-    "lodash": "^3.10.1",
-    "moment": "^2.10.6",
-    "prettyjson": "^1.1.3",
-    "string": "^3.3.1"
+    "joi": "^7.3.0",
+    "js-beautify": "^1.6.2",
+    "lodash": "^4.9.0",
+    "moment": "^2.12.0",
+    "prettyjson": "^1.1.3"
   }
 }
